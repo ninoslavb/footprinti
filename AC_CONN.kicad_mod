@@ -1,0 +1,22 @@
+(module AC_CONN (layer F.Cu) (tedit 59DB4066)
+  (fp_text reference J1 (at 2.5 3.14) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text value 12VDC (at 10.6 -3) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_line (start -2.54 -8) (end -2.54 -10) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.54 -10) (end 7.62 -10) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.62 -10) (end 7.62 -8) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.54 0) (end -2.54 -8) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.62 -8) (end 7.62 2) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.62 2) (end -2.54 2) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.54 2) (end -2.54 0) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 5.08 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
+  (model "../../../../../../Users/Ninoslav/Desktop/3D modeli/20020109h021a01lf.wrl"
+    (at (xyz 0.1 0.15 0.1))
+    (scale (xyz 2.2 2.2 2.2))
+    (rotate (xyz 180 0 180))
+  )
+)

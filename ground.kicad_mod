@@ -1,0 +1,9 @@
+(module ground (layer F.Cu) (tedit 5B34C05E)
+  (fp_text reference U7 (at -4.34 2.06 90) (layer F.SilkS) hide
+    (effects (font (size 1.2 1.2) (thickness 0.25)))
+  )
+  (fp_text value ground (at -6 -5) (layer F.Fab) hide
+    (effects (font (size 1.2 1.2) (thickness 0.25)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 5.5 5.5) (drill 3.5) (layers *.Cu *.Mask))
+)
